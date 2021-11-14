@@ -1,0 +1,172 @@
+/* CSS start */
+html,
+body {
+  background: #fff;
+  font-family: 'Russo One', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+
+/* Content Line */
+
+#nome {
+  text-transform: capitalize;
+}
+
+.seletores {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.seletores p {
+  margin: 0;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topo {
+  display: flex;
+  justify-content: center;
+}
+
+.descricao {
+  text-align: justify;
+  padding: 16px;
+}
+
+.tipos {
+  display: flex;
+}
+
+.shiny {
+  font-size: 20px;
+  line-height: 10px;
+}
+
+#female {
+  fill: #ef2bb8;
+  width: 30px;
+  height: 30px;
+}
+
+#male {
+  fill: #4567df;
+  width: 25px;
+  height: 25px;
+}
+
+.fav {
+  color: #666;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.fav-select {
+  color: #990000;
+}
+
+/* Footer Line */
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+}
+
+footer a {
+  font-size: 52px;
+  color: #ffbded;
+}
+
+h6 {
+  margin: 10vw;
+}
+
+.imagem-pokemon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30%;
+}
+
+#sprite {
+  transform: scale(2);
+}
+
+.nao_encontrado {
+  height: calc(90vh - 52px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nao_encontrado img {
+  width: 100%;
+}
+
+.detalhes_invisivel,
+.nao_encontrado_invisivel,
+.botoes_navegacao_invisivel {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.detalhes {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+main {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.detalhes h2 {
+  color: #000;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  flex: 1;
+}
+
+.loading img {
+  width: 50vw;
+  animation: balanca 1s ease-out infinite alternate;
+}
+
+@keyframes balanca {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+/* Responsiveness */
+@media (max-width: 767px) {
+  .section {
+    width: 80%;
+    height: 30%;
+  }
+}
