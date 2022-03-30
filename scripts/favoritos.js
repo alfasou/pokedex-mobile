@@ -9,7 +9,7 @@ const carregaFavoritos = () => {
     const span = document.createElement('span')
     const iconeLixeira = document.createElement('img')
 
-    iconeLixeira.setAttribute('src', '../assets/trash.svg')
+    iconeLixeira.setAttribute('src', 'assets/trash.svg')
     iconeLixeira.classList.add('icone')
     iconeLixeira.setAttribute('onclick', `removeFavorito(${pokemon.id})`)
     iconeLixeira.setAttribute('alt', 'Remover pokémon')
