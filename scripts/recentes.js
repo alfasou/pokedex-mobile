@@ -10,7 +10,7 @@ const carregaPagina = () => {
     const span = document.createElement('span')
     const iconeLixeira = document.createElement('img')
 
-    iconeLixeira.setAttribute('src', '../assets/trash.svg')
+    iconeLixeira.setAttribute('src', 'assets/trash.svg')
     iconeLixeira.classList.add('icone')
     iconeLixeira.setAttribute('onclick', `removeBusca(${pokemon.id})`)
 
