@@ -1,7 +1,7 @@
 # Pokedex-Mobile
 <div align="center">
   <p>Projeto conjunto de Pokedéx <strong>versão mobile</strong> usando conceitos de HTML, CSS, Javascript e APIs sob a mentoria do <a href="https://github.com/Gutto1">Gutto</a></p>
-  <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png">
+  <img src="https://i.imgur.com/5bq9ByP.png">
   
   <hr />
   
