@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 8px 0;
+  cursor: pointer;
 }
 
 .linha_pokemon span {
@@ -22,8 +23,10 @@
   font-size: 1.5em;
   font-weight: bold;
   flex: 1;
+  cursor: pointer;
 }
 
 .linha_pokemon .icone {
   width: 26px;
+  cursor: pointer;
 }
