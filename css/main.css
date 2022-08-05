@@ -39,6 +39,10 @@ input:focus {
   border-color: #ffa9e8;
 }
 
+svg {
+  margin: 10px;
+}
+
 button {
   background: #ffbded;
   border: none;
@@ -79,8 +83,4 @@ button {
 
 .icones:hover {
   background: #ffa9e8;
-}
-
-.main_content {
-  cursor: pointer;
 }
