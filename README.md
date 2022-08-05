@@ -17,4 +17,4 @@
 
 ## Visualizar
 
-Para visualizar <a href="https://alfasou.github.io/Pokedex-Mobile" target="_blank">clique aqui</a>, inspecione a página e veja no modo para outros dispositivos, escolha qualquer celular e pronto!
+Para visualizar <a href="https://alfasou.github.io/pokedex-mobile" target="_blank">clique aqui</a>, inspecione a página e veja no modo para outros dispositivos, escolha qualquer celular e pronto!
