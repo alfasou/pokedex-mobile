@@ -80,3 +80,7 @@ button {
 .icones:hover {
   background: #ffa9e8;
 }
+
+.main_content {
+  cursor: pointer;
+}
