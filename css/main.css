@@ -39,8 +39,8 @@ input:focus {
   border-color: #ffa9e8;
 }
 
-svg {
-  margin: 10px;
+#hibisco {
+  margin: 0 50px;
 }
 
 button {
