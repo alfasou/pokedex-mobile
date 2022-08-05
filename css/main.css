@@ -39,10 +39,6 @@ input:focus {
   border-color: #ffa9e8;
 }
 
-#hibisco {
-  margin: 0 50px;
-}
-
 button {
   background: #ffbded;
   border: none;
@@ -83,4 +79,12 @@ button {
 
 .icones:hover {
   background: #ffa9e8;
+}
+
+#hibisco {
+  margin: 0 50px;
+}
+
+#random {
+  cursor: pointer;
 }
