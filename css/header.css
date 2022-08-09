@@ -14,11 +14,11 @@ header {
 
 #hibisco {
   fill: #ffbded;
-  width: 6vw;
-  height: 6vw;
+  width: 6em;
+  height: 6em;
   vertical-align: middle;
   transform: scale(1.5);
-  margin-right: 5%;
+  margin-right: 20px;
 }
 
 h1 {
