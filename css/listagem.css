@@ -2,7 +2,6 @@
   text-align: center;
   font-size: 2em;
   font-family: 'Russo One', sans-serif;
-  margin-left: 40px;
 }
 
 .main_content {
@@ -15,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 8px 0;
+  margin: 8px 20px 8px 0;
   cursor: pointer;
 }
 
@@ -25,11 +24,11 @@
   font-weight: bold;
   flex: 1;
   cursor: pointer;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px;
 }
 
 .linha_pokemon .icone {
   width: 26px;
   cursor: pointer;
+  margin: 0 20px 0 0;
 }
